@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbjvyib01cvwg"]
+
+[ext_resource type="Script" path="res://stage_indicator.gd" id="1_paou0"]
+
+[node name="StageIndicator" type="Node2D"]
+script = ExtResource("1_paou0")
+
+[node name="rect" type="ColorRect" parent="."]
+z_index = 5
+offset_left = 18.0
+offset_top = -11.0
+offset_right = 28.0
+offset_bottom = -1.0
+rotation = -0.0427133
+scale = Vector2(0.680001, 0.64)
+color = Color(0.0894885, 0.474257, 0.725312, 1)

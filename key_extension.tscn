@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjf3iyv13nax"]
+
+[ext_resource type="Texture2D" uid="uid://dxb7sv8kie2q1" path="res://art/extension.png" id="1_wopy3"]
+[ext_resource type="Script" path="res://key_extension.gd" id="2_e7l1l"]
+
+[node name="KeyExtensionSprite" type="Sprite2D"]
+position = Vector2(250, 138)
+scale = Vector2(0.451141, 0.451847)
+texture = ExtResource("1_wopy3")
+script = ExtResource("2_e7l1l")
+
+[node name="HidingRect" type="ColorRect" parent="."]
+offset_left = -206.144
+offset_top = -30.9839
+offset_right = -166.144
+offset_bottom = 9.01606
+scale = Vector2(1.78635, 2.74166)
+color = Color(0.30139, 0.30139, 0.30139, 1)

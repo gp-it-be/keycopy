@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://7c0n4c4qv3v0"]
+
+[ext_resource type="Script" path="res://key.gd" id="1_up4cr"]
+[ext_resource type="Texture2D" uid="uid://b700br8s3f74y" path="res://Hourglass.png" id="2_kthkm"]
+[ext_resource type="Texture2D" uid="uid://dixj8vv4tr7ta" path="res://art/enkelloop.png" id="3_uwy3j"]
+
+[node name="Key" type="Node2D"]
+script = ExtResource("1_up4cr")
+
+[node name="ToothMarker1" type="Marker2D" parent="."]
+position = Vector2(124, 44)
+
+[node name="TimerLabel" type="Label" parent="."]
+offset_left = 1.0
+offset_top = -22.0
+offset_right = 41.0
+offset_bottom = 1.0
+
+[node name="PressLimitLabel" type="Label" parent="."]
+offset_left = 61.0
+offset_top = -23.0
+offset_right = 101.0
+
+[node name="TimerImage" type="Sprite2D" parent="."]
+position = Vector2(-13, -11)
+scale = Vector2(0.726383, 0.758665)
+texture = ExtResource("2_kthkm")
+
+[node name="PressLimitImage" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(15, 15)
+offset_left = 42.0
+offset_top = -15.0
+offset_right = 57.0
+scale = Vector2(0.726383, 0.758665)
+color = Color(0.145098, 0.133333, 1, 1)
+
+[node name="LoopSprite" type="Sprite2D" parent="."]
+position = Vector2(245, 138)
+scale = Vector2(0.451141, 0.451847)
+texture = ExtResource("3_uwy3j")
